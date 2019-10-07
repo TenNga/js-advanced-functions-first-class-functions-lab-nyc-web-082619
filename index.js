@@ -11,7 +11,7 @@ const selectingDrivers = [
   returnLastTwoDrivers
   ]
   
-createFareMultiplier = (num) => {
+function createFareMultiplier(num){
   return function(fair){
    return fair * num;
   }
