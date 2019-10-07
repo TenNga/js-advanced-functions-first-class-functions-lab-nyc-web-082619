@@ -17,7 +17,7 @@ createFareMultiplier = (num) => {
   }
 }
 
-const fareDoubler = (fare) => {
+fareDoubler = (fare) => {
   const result = createFareMultiplier(2)
   result(fare)
 }
