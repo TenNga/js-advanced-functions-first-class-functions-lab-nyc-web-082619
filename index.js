@@ -12,7 +12,7 @@ const selectingDrivers = [
   ]
   
 createFareMultiplier = (num) => {
-  return (fair) => {
+  return function(fair){
    return fair * num;
   }
 }
